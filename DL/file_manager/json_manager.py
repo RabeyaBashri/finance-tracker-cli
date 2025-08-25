@@ -9,7 +9,7 @@ class JsonManager(FileManager):
 
     def __init__(self):
     
-        self.file_name = r"E:\python\PersonalFinanceTracker\Python_Pandas_Matplotlib_Seaborn_CLI_Version\data\json\personal_finance_data.json"
+        self.file_name = r"data\json\personal_finance_data.json"
 
     def load(self) -> dict[str, list[dict]]:
        

@@ -9,7 +9,7 @@ class CSVManager(FileManager):
 
     def __init__(self):
     
-        self.file_name = r"E:\python\PersonalFinanceTracker\Python_Pandas_Matplotlib_Seaborn_CLI_Version\data\csv\personal_finance_data.csv"
+        self.file_name = r"data\csv\personal_finance_data.csv"
 
     def load(self) -> dict[str, list[dict]]:
 
