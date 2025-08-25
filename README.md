@@ -20,13 +20,12 @@ It also provides **reports and visualizations** with Matplotlib.
 
 ## 📂 Project Structure
 finance-tracker-cli/
-│── finance_tracker.py # CLI entrypoint
-│
-├── BO/ # Business Objects (Transaction model)
-├── BL/ # Business Logic (Transaction Manager)
-├── DL/ # Data Layer (CSV & JSON managers)
-├── utilities/ # Enums, category lists, helpers
-├── data/ # Data storage (CSV/JSON files)
+1. finance_tracker.py # CLI entrypoint
+2. BO/ # Business Objects (Transaction model)
+3. BL/ # Business Logic (Transaction Manager)
+4. DL/ # Data Layer (CSV & JSON managers)
+5. utilities/ # Enums, category lists, helpers
+6. data/ # Data storage (CSV/JSON files)
 
 Clone the repository:
 ```bash
